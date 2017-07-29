@@ -1,0 +1,256 @@
+@charset "euc-kr";
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+* {
+    font-family: 'Nanum Myeongjo', sans-serif;
+    -webkit-text-size-adjust: none;
+    padding: 0;
+    margin: 0
+}
+
+#container .section::before,
+#container .section::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.section {
+    text-align: center;
+}
+
+#container {
+    display: block;
+}
+
+.section1 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    z-index: 10;
+}
+
+.section1 .box {
+    width: 100%;
+    height: 100%;
+}
+
+.section1 .box .text_1 {
+    letter-spacing: 3px;
+    color: #555;
+    margin: 3rem 0;
+    font-style: italic;
+}
+
+.section1 .box .text_2 {
+    width: 26%;
+    margin: 0 auto;
+    padding: 2rem 0.8rem 1.7rem;
+    box-sizing: border-box;
+    background: #fff;
+    color: #555;
+    text-align: center;
+    border: 1px solid #666;
+}
+
+.section1 .box .text_2 .date {
+    font-size: 2.7rem;
+    font-style: italic;
+}
+
+.section1 .box .text_2 .date .month {
+    position: relative;
+    text-align: left;
+}
+
+.section1 .box .text_2 .date .day {
+    display: block;
+    text-align: right;
+}
+
+.section1 .box .text_2 .date .month::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    display: block;
+    width: 2px;
+    height: 8rem;
+    background: #666;
+    transform: rotate(45deg);
+}
+
+.section1 .box .text_3 {
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+.section1 .box .text_3 span {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.section1 .info_box {
+    font-style: italic;
+    padding: 3.2rem 0;
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    color: #555;
+    z-index: 2;
+    background: #f6ebe9;
+}
+
+.section2 {
+    padding: 8rem 0;
+    text-align: center;
+}
+
+.section2 .box .text_box .text_1,
+.section3 .box .text_box .text_1,
+.section4 .box .text_box .text_1{
+    padding-bottom: 1rem;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+.section2 .box .text_box .text_2 {
+    padding: 3.5rem 0;
+    width: 90%;
+    line-height: 3rem;
+    margin: 0 auto;
+    border-top: 1px solid #f2d7d5;
+    border-bottom: 1px solid #f2d7d5;
+}
+
+.section2 .box .text_box .parent {
+    line-height: 3rem;
+    padding-top: 3rem;
+    letter-spacing: 2px;
+}
+
+.section2 .box .text_box .parent span p {
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.tell_box .img_box {
+    padding: 3rem 0;
+}
+
+.tell_box .phone ul li {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.tell_box .phone ul li.border_right {
+    border-right: 1px solid #f2d7d5;
+    box-sizing: border-box;
+}
+
+.tell_box .phone ul li a {
+    display: block;
+    text-align: center;
+}
+
+.tell_box .phone ul li a .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background: url("../img/phone_icon.png") no-repeat center;
+}
+
+.section3 {
+    padding:8rem 0;
+    background: #f6ebe9;
+}
+
+.section3 .box .text_box .text_1 ,
+.section4 .box .text_box .text_1 {
+    border-bottom: 1px solid #f2d7d5;
+      width: 90%;
+    margin: 0 auto;
+}
+
+.gallery {
+    padding-top: 2rem;
+}
+
+.gallery li {
+    width: 33.3%;
+    height: 40%;
+    margin-top: 3rem;
+    float: left;
+    text-align: center;
+}
+
+.gallery a {
+    margin: 0 auto;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.section4{
+    padding:8rem 0;
+}
+.section4 .text_2{
+    margin:3rem 0;
+    line-height: 3rem;
+}
+
+.root_daum_roughmap{
+    margin:0 auto !important;
+}
+
+.text_box_2{
+    margin-top:5rem;
+    padding:2rem 0;
+    background: #f6ebe9;
+      line-height: 3rem;
+}
+
+.text_box_2 ul li.tit_1{
+    font-weight: bold;
+}
+.text_box_3 .t_1,
+.text_box_4 .t_1,
+.text_box_5 .t_1{
+    padding-top:3rem;
+    border-bottom: 1px solid #f2d7d5;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+     line-height: 3rem;
+}
+.text ul{
+    margin-top:1rem;
+    color:#777;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

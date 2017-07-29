@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="content-type" content="test/html; charset=utf-8">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+
+    <script src="./js/jquery/jquery-1.12.2.min.js"></script>
+    <script src="./js/photo_gallery.js"></script>
+    <!-- <script src="./js/photoswipe.js"></script>-->
+
+
+    <title>성지,우리 모바일청첩장</title>
+</head>
+
+<body>
+    <div id="wrap">
+
+        <div id="container">
+            <div id="meun1" class="section1 section">
+                <div class="box">
+                    <div class="text_box">
+                        <div class="text_1">
+                            INVITATION
+                        </div>
+                        <div class="text_2">
+                            <p class="date">
+                                <span class="month">09</span>
+                                <span class="day">16</span>
+                            </p>
+                        </div>
+                        <div class="text_3">
+                            <div class="name">
+                                정성지 &amp; 한우리
+                                <br>
+                                <span>결혼합니다</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img_box">
+                        <img src="./img/img_1.jpg" alt="">
+                    </div>
+                    <div class="info_box">
+                        2017. 9. 16. SAT AM 1:30
+                        <br> 다온플라츠컨벤션웨딩
+                    </div>
+                </div>
+            </div>
+            <div id="meun2" class="section2 section">
+                <div class="box">
+                    <div class="text_box">
+                        <div class="text_1">
+                            초대합니다.
+                        </div>
+                        <div class="text_2">
+                            새로운 마음과 새 의미를 간직하며
+                            <br> 저희 두사람이 새출발의
+                            <br> 첫 걸음을 내딛습니다.
+                            <br> 좋은 꿈,바른 뜻으로 올바르게 살 수 있도록
+                            <br> 축복과 격려 주시면
+                            <br> 더 없는 기쁨을 간직하겠습니다.
+                        </div>
+                        <div class="parent">
+                            <span>아버지 어머니의 <p>장남</p> 성지</span>
+                            <span>아버지 어머니의 <p>차녀</p> 우리</span>
+                        </div>
+                    </div>
+                    <div class="tell_box">
+                        <div class="img_box">
+                            <img src="./img/img_2.jpg" alt="">
+                        </div>
+                        <div class="phone">
+                            <ul>
+                                <li class="border_right">
+                                    <a href="tel:010-8546-6096">
+                                        <div class="icon"></div>
+                                        <span>신랑에게 전화</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:010-8546-6096">
+                                        <div class="icon"></div>
+                                        <span>신부에게 전화</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="meun3" class="section3 section">
+                <div class="box">
+                    <div class="text_box">
+                        <div class="text_1">웨딩갤러리</div>
+                    </div>
+                    <ul class="gallery">
+                        <li>
+                            <a href="img/img_2.jpg" class="big">
+                                <img src="img/galler_s_1.jpg">
+                                <!--스몰이미지사이즈 150*150-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="img/img_3.jpg" class="big">
+                                <img src="img/galler_s_2.jpg">
+                                <!--스몰이미지사이즈 150*150-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="img/img_1.jpg" class="big">
+                                <img src="img/galler_s_3.jpg">
+                                <!--스몰이미지사이즈 150*150-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="img/img_1.jpg" class="big">
+                                <img src="img/galler_s_3.jpg">
+                                <!--스몰이미지사이즈 150*150-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="img/img_2.jpg" class="big">
+                                <img src="img/galler_s_1.jpg">
+                                <!--스몰이미지사이즈 150*150-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="img/img_2.jpg" class="big">
+                                <img src="img/galler_s_1.jpg">
+                                <!--스몰이미지사이즈 150*150-->
+                            </a>
+                        </li>
+
+                        <div class="clear"></div>
+                    </ul>
+                    <script>
+                        $(function () {
+                            var gallery = $('.gallery li a').simpleLightbox({
+                                navText: ['&lsaquo;', '&rsaquo;']
+                            });
+                        });
+                    </script>
+
+
+                </div>
+            </div>
+            <div id="meun4" class="section4 section">
+                <div class="box">
+                    <div class="text_box">
+                        <div class="text_1">오시는 길</div>
+                        <div class="text_2">2017년 9월 16일 토요일 낮 1시 30분
+                            <br>다온플라츠컨벤션웨딩</div>
+                    </div>
+
+                    <!--
+	* Daum 지도 - 약도서비스
+	* 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+	* 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+-->
+                    <!-- 1. 약도 노드 -->
+                    <div id="daumRoughmapContainer1497762955431" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                    <!-- 2. 설치 스크립트 -->
+                    <script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script>
+
+                    <!-- 3. 실행 스크립트 -->
+                    <script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                            "timestamp": "1497762955431",
+                            "key": "i9z5",
+                            "mapWidth": "350",
+                            "mapHeight": "200"
+                        }).render();
+                    </script>
+                    
+                  <div class="text_box_2">
+                      <ul>
+                          <li class="tit_1">다온플라츠컨벤션웨딩</li>
+                          <li>서울 광진구 강변역로 50 4층</li>
+                          <li>Tel.02-453-0102</li>
+                      </ul>
+                  </div>  
+                   <div class="text_box_3 text">
+                       <div class="t_1">SUBWAY</div>
+                       <ul>
+                           <li>2호선 강변역 하차(4번출구)</li>
+                       </ul>
+                   </div>
+                   <div class="text_box_4 text">
+                       <div class="t_1">BUS</div>
+                       <ul>
+                           <li>[지선버스] 2224, 3212, 3214 </li>
+                           <li>[일반버스] 1, 1-1, 1-2, 9, 9-1, 13, 13-2, 15, 91, 92, 93, 95, 96, 97, 112, 112-1,2000-1, 2000-3, 2000-4</li>
+                           <li>[직행버스] 11, 100, 1112, 1113, 113-1, 1113-2, 1117, 1650, 1660, 5600, 5700</li>
+                       </ul>
+                   </div>
+                   <div class="text_box_5 text">
+                       <div class="t_1">CAR</div>
+                       <ul>
+                           <li>네비게이션:서울시 광진구 강변역로 50 (구의동)<br> 동서울터미널 4층</li>
+                           <li>주차공간 : 500대 주차가능 -2시간무료</li>
+                           <li></li>
+                       </ul>
+                   </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+
+</html>
